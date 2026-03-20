@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Real Madrid - Página Oficial</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ffffff;
+            color: #000;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #d4af37;
+        }
+        nav {
+            background-color: #000;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #d4af37;
+        }
+        .hero {
+            background-image: url('https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 300px;
+            background-color: #fff;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Real Madrid C.F.</h1>
+    <p>El club más grande del mundo</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Plantilla</a>
+    <a href="#">Historia</a>
+    <a href="#">Títulos</a>
+</nav>
+
+<div class="hero"></div>
+
+<div class="content">
+    <h2>Bienvenido</h2>
+    <p>
+        El Real Madrid Club de Fútbol es uno de los equipos más exitosos de la historia.
+        Fundado en 1902, ha ganado múltiples títulos nacionales e internacionales,
+        incluyendo la UEFA Champions League.
+    </p>
+
+    <h3>Jugadores Destacados</h3>
+    <ul style="list-style: none;">
+        <li>Vinícius Jr.</li>
+        <li>Jude Bellingham</li>
+        <li>Luka Modrić</li>
+        <li>Toni Kroos</li>
+    </ul>
+</div>
+
+<footer>
+    <p>© 2026 Real Madrid Fan Page</p>
+</footer>
+
+</body>
+</html>
